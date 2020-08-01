@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang = "en">
-	<head>
-		<meta charset="UTF-8">
-		<!-- Reset goes first -->
-		<title>Crest/Grolsch Advanced Mouthwash Home</title>
-		<link href="css/reset.css" rel="stylesheet" type="text/css">
-		<link href="css/main.css" rel="stylesheet" type="text/css">
-	</head>
-	<body>
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <title>Crest/Grolsch Advanced Mouthwash Home</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
         <div id="container">
             <h1 class="hidden">HomePage</h1>
 
@@ -15,7 +15,9 @@
 
                 <h2 class="hidden">Header</h2>
 
-                <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" height="125" width="218">
+                <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="headerLogoM" src="images/HeaderLogoM.jpg" alt="Crest Grolsch product team up logo mobile">
+
 
                 <nav id="mainNav">
                 <h2 class="hidden">Main Nav</h2>
@@ -28,7 +30,7 @@
                 </ul>
                 </nav>
 
-                <section id="socialMediaTop">
+                <section id="socialMediaTop" class="hidden">
                     <h2 class="hidden">Social Media</h2>
                     <a href="https://www.instagram.com/"><img id="insta" src="images/Instagram.jpg" alt="Instagram logo" height="48" width="48"></a>
                     <a href="https://twitter.com/explore"><img id="twitter" src="images/TwitterLogo.jpg" alt="Twitter logo" height="48" width="48"></a>
@@ -39,7 +41,8 @@
 
             <section id="heroSection">
                 <h2 class="hidden">heroSection</h2>
-                <img id="hero" src="images/Home1.jpg" alt="Crest Grolsch beer bottle with text">
+                <img id="hero" src="images/Home1.jpg" alt="Crest Grolsch beer bottle with text" class="hidden">
+                <img id="heroM" src="images/Home1M.jpg" alt="Crest Grolsch beer bottle with text mobile">
                 <div id="button">
                     <h2 class="hidden">button</h2>
                     <a id="readButton" href="About.html">Read More</a>
@@ -48,48 +51,62 @@
 
             <hr id="bar1">
 
-           <img id="secondPromo" src="images/Home2.jpg" alt="Crest Grolsch beer bottle with promotional text">
+           <img id="secondPromo" src="images/Home2.jpg" alt="Crest Grolsch beer bottle with promotional text" class="hidden">
+           <img id="secondPromoM" src="images/Home2M.jpg" alt="Crest Grolsch beer bottle with promotional text mobile">
 
             <hr id="bar2">
 
-            <img id="thirdPromo" src="images/Home3.jpg" alt="Crest Grolsch beer bottle with promotional text">
+            <img id="thirdPromo" src="images/Home3.jpg" alt="Crest Grolsch beer bottle with promotional text" class="hidden">
+            <img id="thirdPromoM" src="images/Home3M.jpg" alt="Crest Grolsch beer bottle with promotional text mobile">
+
+
+             <hr id="bar4">
+
+            <div id="video-container">
+              <video id="video" controls="controls">
+                <source src="assets/Infomercial.mp4" type="video/mp4"/>
+                <source src="assets/Infomercial.webm" type="video/webm"/>
+              </video>
+            </div>
+
+            <hr id="bar3">
 
             <footer>
                 <h2 class="hidden">Footer</h2>
 
-            <hr id="bar3">
 
                 <section id="footerTop">
-                    <h2 class="hidden">Footertop</h2>
+                    <h2 class="hidden">FooterTop</h2>
 
-                    <p id="connect">Connect With Us</p>
+                    <p id="connect" class="hidden">Connect With Us</p>
 
+                    <div id="footMedia">
                     <a href="https://www.instagram.com/"><img id="instabot" src="images/Instagram.jpg" alt="Instagram logo"></a>
                     <a href="https://twitter.com/explore"><img id="twitterbot" src="images/TwitterLogo.jpg" alt="Twitter logo"></a>
                     <a href="https://www.facebook.com/"><img id="facebookbot" src="images/FacebookLogo.jpg" alt="facebook logo"></a>
+                </div>
 
-                    <a id="top" href="#">Top</a>
+                    <a id="top" class="hidden" href="#">Top</a>
 
                 </section>
 
-                <hr id="bar4">
-
-                <nav id="footerNav">
+                <nav id="footerNav" class="hidden">
                 <h2 class="hidden">Footer Nav</h2>
                 <ul>
-                    <li><a href="#"><span class="selected">Home</span></a></li>
+                    <li><a href="#"><span class="selected">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="Products.html">Products</a></li>
-                    <li><a href="Advertisements.html">Advertisements</a></li>
+                    <li><a href="Advertisements.html">Advertisements</span></a></li>
                     <li><a id="contactBot" href="Contact.html">Contact Us</a></li>
                 </ul>
                 </nav>
 
-                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo">
+                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="crestLogoBotM" src="images/FooterLogoM.jpg" alt="Crest Grolsch product team up logo">
 
             </footer>
 
         </div>
-		<script src="js/main.js"></script>
-	</body>
+        <script src="js/main.js"></script>
+    </body>
 </html>
