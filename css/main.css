@@ -1,0 +1,373 @@
+/*	all pages*/
+	body 
+	{
+		font-family: 'Bernard MT', Arial, sans-serif;
+		color:#136D37;
+	}
+
+	footer
+	{
+		margin-top:20px;
+	}
+
+	.hidden 
+	{
+		display: none;
+	}
+
+	.selected
+	{
+		color:#29402C;
+		text-decoration:underline;
+	}
+
+	#container
+	{
+		margin:0 auto;
+		width:411px;
+	}
+
+
+	#header 
+	{
+		margin-bottom:30px;
+		display:flex;
+		flex-direction: column;
+		width:100%;
+		border-bottom:5px solid #293F2B;
+	}
+
+	#headerLogoM{
+		height:105.72px;
+		width:184.96px;
+		margin:0 auto;
+		margin-top:15px;
+
+	}
+
+	#mainNav
+	{
+		margin-top:20px;
+		margin-left:20px;
+		font-size:25px;
+		width:100%;
+	}
+
+	#mainNav ul
+	{
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+	}
+
+	#mainNav ul li a {
+		display: block;
+		margin-right: 24px;
+		color:#136D37;
+		text-decoration:none;
+		margin-bottom:6px;
+	}
+
+	#bar1, #bar2, #bar3, #bar5
+	{
+		height:10px;
+		width:100%;
+	}
+
+	#bar3
+	{
+		background-color: #29402C;
+	}
+
+	#footerTop 
+	{
+		display:flex;
+		flex-direction: row;
+
+	}
+
+	#instabot, #twitterbot
+	{
+		margin-right:20px;
+	}
+
+	#footMedia{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:25px;
+	}
+
+
+	#crestLogoBotM 
+	{
+		margin-bottom:20px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+
+/*advertisements page*/
+	#mobileAd{
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+	}
+
+	#mobileAd p{
+		font-size:22px;
+		margin-bottom:10px;
+	}
+
+	#ad1M,#ad2M,#ad3M,#ad4M,#ad5M{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:25px;
+	}
+
+
+@media screen and (min-width: 900px)
+{
+		body 
+	{
+		font-family: 'Bernard MT', Arial, sans-serif;
+		color:#136D37;
+	}
+
+	footer
+	{
+		margin-top:-9px;
+	}
+
+	.hidden 
+	{
+		display: none;
+	}
+
+	.selected
+	{
+		color:#29402C;
+		text-decoration:underline;
+	}
+
+	#container
+	{
+		width:920px;
+		margin:0 auto;
+	}
+
+	#header 
+	{
+		display:flex;
+		flex-direction: row;
+		width:921px;
+		margin-bottom:0px;
+		border-bottom:none;
+	}
+
+	#headerLogo
+	{
+		display:unset;
+		height:124.61px;
+		width:218px;
+		margin-top:15px;
+	}
+
+	#headerLogoM{
+		display:none;
+
+	}
+
+	#mainNav
+	{
+		margin-top:110px;
+		margin-left:20px;
+		font-size:25px;
+		width:900px;
+		margin-bottom:-30px;
+	}
+
+	#mainNav ul
+	{
+		display:flex;
+		flex-direction: row;
+		text-align:unset;
+	}
+
+	#mainNav ul li a {
+		display: block;
+		margin-right: 35px;
+		color:#136D37;
+		text-decoration:none;
+	}
+
+
+	#mainNav ul li a:hover,#footerNav ul li a:hover, #selected:hover, #top:hover {
+		color:#F61712;
+	}
+
+	#socialMediaTop
+	{
+		height:63px;
+		width:192px;
+		margin-top:5px;
+		margin-left:-300px;
+		display:unset;
+	}
+	#insta, #twitter 
+	{
+		margin-right:10px;
+	}
+
+	#bar1, #bar2, #bar3, #bar5
+	{
+		height:15px;
+		width:920px;
+	}
+
+	#footerTop 
+	{
+		display:flex;
+		flex-direction: row;
+	}
+
+
+	#connect
+	{
+		font-size:29px;
+		margin-right:30px;
+		margin-top:10px;
+		display:unset;
+
+	}
+
+	#footMedia{
+		display:unset;
+		margin-left:unset;
+		margin-right:unset;
+		margin-bottom:unset;
+	}
+
+	#instabot, #twitterbot
+	{
+		margin-right:20px;
+	}
+
+	#top
+	{
+		margin-left:auto;
+		font-size:29px;
+		color:#136D37;
+		text-decoration:none;
+		margin-top:10px;
+		display:unset;
+	}
+
+	#footerNav
+	{
+		display:block;
+		margin-left:148.5px;
+		margin-top:35px;
+		font-size:25px;
+		width:900px;
+	}
+
+	#footerNav ul
+	{
+		display:flex;
+	}
+
+	#footerNav ul li a {
+		display: block;
+		margin-right: 24px;
+		color:#136D37;
+		text-decoration:none;
+		border-right:solid 3px #136D37;
+		padding-right:24px;
+	}
+
+	#contactBot
+	{
+		border-right:solid 0px #136D37;
+	}
+
+	#crestLogoBot 
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:35px;
+		margin-bottom:25px;
+		height:120px;
+		width:223px;
+	}
+
+	#crestLogoBotM 
+	{
+		display:none;
+	}
+
+
+	#desktopAd
+	{
+		display:unset;
+	}
+
+	#desktopAd p{
+		font-size:25px;
+		margin-bottom:10px;
+	}
+
+	#row1
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	#adS1, #adS2, #adS3, #adS4, #adS5{
+		display:flex;
+		flex-direction: column;
+		text-align:center;
+		line-height: 30px;
+	}
+
+	#adS1 p, #adS2 p, #adS3 p, #adS4 p, #adS5 p{
+		margin-top:30px;
+	}
+
+	#adS1 p{
+		margin-top:38px;
+	}
+
+	#adS5 {
+		margin-bottom:50px;
+	}
+
+
+	#row2
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	#ad2, #ad4,
+	{
+		margin-left:auto;
+	}
+
+	#ad5
+	{
+		margin-top:50px;
+		margin-left:230px;
+	}
+
+	#mobileAd{
+		display:none;
+	}
+
+}
