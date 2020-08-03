@@ -2,8 +2,8 @@
 <html lang = "en">
 	<head>
 		<meta charset="UTF-8">
-		<!-- Reset goes first -->
-		<title>Crest/Grolsch Advanced Mouthwash Home</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<title>Crest/Grolsch Advanced Mouthwash Contact</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
@@ -15,7 +15,9 @@
 
                 <h2 class="hidden">Header</h2>
 
-                <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" height="125" width="218">
+                 <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="headerLogoM" src="images/HeaderLogoM.jpg" alt="Crest Grolsch product team up logo mobile">
+
 
                 <nav id="mainNav">
                 <h2 class="hidden">Main Nav</h2>
@@ -28,7 +30,7 @@
                 </ul>
                 </nav>
 
-                <section id="socialMediaTop">
+                <section id="socialMediaTop" class="hidden">
                     <h2 class="hidden">Social Media</h2>
                     <a href="https://www.instagram.com/"><img id="insta" src="images/Instagram.jpg" alt="Instagram logo" height="48" width="48"></a>
                     <a href="https://twitter.com/explore"><img id="twitter" src="images/TwitterLogo.jpg" alt="Twitter logo" height="48" width="48"></a>
@@ -36,6 +38,13 @@
                 </section>
 
             </header>
+            <section id="contactCopySection">
+
+                <h2 id="contactCopyHead">Have any questions? Please reach out, we'd love to hear from you!</h2>
+
+                <p>Our customer support workers are always here to help.</p>
+
+            </section>
 
             <section id="Form">
             <h2 class="hidden">Form</h2>
@@ -59,33 +68,35 @@
 
             <hr id="bar3">
 
-                <section id="footerTop">
+                 <section id="footerTop">
                     <h2 class="hidden">FooterTop</h2>
 
-                    <p id="connect">Connect With Us</p>
+                    <p id="connect" class="hidden">Connect With Us</p>
 
+                    <div id="footMedia">
                     <a href="https://www.instagram.com/"><img id="instabot" src="images/Instagram.jpg" alt="Instagram logo"></a>
                     <a href="https://twitter.com/explore"><img id="twitterbot" src="images/TwitterLogo.jpg" alt="Twitter logo"></a>
                     <a href="https://www.facebook.com/"><img id="facebookbot" src="images/FacebookLogo.jpg" alt="facebook logo"></a>
+                </div>
 
-                    <a id="top" href="#">Top</a>
+                    <a id="top" class="hidden" href="#">Top</a>
 
                 </section>
 
-                <hr id="bar4">
 
-                <nav id="footerNav">
+                <nav id="footerNav" class="hidden">
                 <h2 class="hidden">Footer Nav</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="Products.html">Products</a></li>
                     <li><a href="Advertisements.html">Advertisements</a></li>
-                    <li><a class="contactBot" href="#"><span id="selected">Contact Us</span></a></li>
+                    <li><a class="contactBot" href="#"><span class="selected">Contact Us</span></a></li>
                 </ul>
                 </nav>
 
-                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo">
+                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="crestLogoBotM" src="images/FooterLogoM.jpg" alt="Crest Grolsch product team up logo">
 
             </footer>
 
