@@ -223,6 +223,153 @@
 
 
 
+		/*contact us page*/
+
+	form
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:80%;
+		margin-top:60px;
+		margin-bottom:35px;
+	}
+
+	#Form input {
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		border: 3px solid #29402C;
+		color: #136D37;
+		width: 80%;
+		padding:3px 3px 3px 3px;
+		font-size:20px;
+	}
+
+	#Form textarea {
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		border: 3px solid #29402C;
+		color: #136D37;
+		width: 80%;
+		padding:3px 3px 3px 3px;
+		font-size:20px;
+	}
+
+	#name, #email, #messages
+	{
+		margin-bottom:20px;
+	}
+
+	#subButton
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		color:#29402C;
+		text-decoration:none;
+		font-size:20px;
+		border:solid 3px #C82C30;
+		margin-bottom:70px;
+		padding-left:125px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+	}
+
+	#submitButton
+	{
+		width:80%;
+		margin-bottom:40px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	#contactCopyHead {
+		font-family: 'Bernard MT', Arial, sans-serif;
+		font-size:30px;
+		width:80%;
+		text-align:center;
+		line-height:40px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:20px;
+		margin-top:50px;
+
+	}
+
+	#contactCopySection p{
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:20px;
+		width:80%;
+		text-align:center;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+
+
+	/*submit page*/
+	#submitContainer
+	{
+		width:100%;
+		margin:0 auto;
+		background-color:#317840;
+		height:800px;
+	}
+
+	#submitContainer h1
+	{
+		color: white;
+		text-align:center;
+		font-size:30px;
+		animation: 4s ease-in 1s infinite reverse both running slidein;
+	}
+
+	@keyframes slidein {
+  	from {
+    margin-top: 100px;
+  }
+
+  75%{
+  	font-size:40px;
+  }
+
+  to {
+    margin-top: 120px;
+  }
+}
+
+	#goBack
+	{
+		padding-top:50px;
+	}
+
+	#backButton
+	{
+		font-size:26px;
+		font-family: 'Bernard MT',Arial,  sans-serif;
+		margin-top:50px;
+		display:block;
+		margin-left:40%;
+		margin-right:auto;
+	}
+
+	#bButton
+	{
+		border:solid 5px #29402C;
+		background-color:white;
+		text-decoration:none;
+		padding:10px;
+		color:#29402C;
+	}
+
+
+
+
 
 
 
@@ -595,4 +742,135 @@
 		display:none;
 	}
 
+
+
+
+	/*contact us page*/
+
+	form
+	{
+		margin-left:54px;
+		width:812px;
+		margin-top:60px;
+		margin-bottom:35px;
+	}
+
+	#Form input {
+		border: 5px solid #29402C;
+		color: #136D37;
+		width: 812px;
+		padding:5px 5px 5px 5px;
+		font-size:36px;
+	}
+
+	#Form textarea {
+		border: 5px solid #29402C;
+		color: #136D37;
+		width: 812px;
+		padding:5px 5px 5px 5px;
+		font-size:36px;
+	}
+
+	#name, #email, #messages
+	{
+		margin-bottom:25px;
+	}
+
+	#subButton
+	{
+		color:#29402C;
+		text-decoration:none;
+		font-size:36px;
+		border:solid 5px #C82C30;
+		margin-top:-25px;
+		margin-bottom:70px;
+		padding-right:84px;
+		padding-left:84px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+	}
+
+	#submitButton
+	{
+		width:260px;
+		margin-bottom:75px;
+		margin-left:600px;
+	}
+
+	#contactCopyHead {
+		font-family: 'Bernard MT', Arial, sans-serif;
+		font-size:40px;
+		width:60%;
+		line-height:50px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:20px;
+		margin-top:70px;
+	}
+
+	#contactCopySection p{
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:30px;
+		width:80%;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+
+
+
+	/*submit page*/
+	#submitContainer
+	{
+		width:1200px;
+		margin:0 auto;
+		background-color:#317840;
+		height:980px;
+	}
+
+	#submitContainer h1
+	{
+		color: white;
+		text-align:center;
+		font-size:80px;
+		animation: 4s ease-in 1s infinite reverse both running slidein;
+	}
+
+	@keyframes slidein {
+  	from {
+    margin-top: 100px;
+  }
+
+  75%{
+  	font-size:120px;
+  }
+
+  to {
+    margin-top: 100px;
+  }
+}
+
+	#goBack
+	{
+		padding-top:300px;
+	}
+
+	#backButton
+	{
+		font-size:36px;
+		font-family: 'Bernard MT',Arial,  sans-serif;
+		margin-left:540px;
+		margin-top:50px;
+	}
+
+	#bButton
+	{
+		border:solid 5px #29402C;
+		background-color:white;
+		text-decoration:none;
+		padding:10px;
+		color:#29402C;
+	}
 }
