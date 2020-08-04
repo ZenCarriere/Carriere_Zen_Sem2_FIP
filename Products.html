@@ -2,8 +2,8 @@
 <html lang = "en">
 	<head>
 		<meta charset="UTF-8">
-		<!-- Reset goes first -->
-		<title>Crest/Grolsch Advanced Mouthwash Home</title>
+         <meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<title>Crest/Grolsch Advanced Mouthwash Products</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
@@ -15,7 +15,8 @@
 
                 <h2 class="hidden">Header</h2>
 
-                <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" height="125" width="218">
+                <img id="headerLogo" src="images/HeaderLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="headerLogoM" src="images/HeaderLogoM.jpg" alt="Crest Grolsch product team up logo mobile">
 
                 <nav id="mainNav">
                 <h2 class="hidden">Main Nav</h2>
@@ -28,7 +29,7 @@
                 </ul>
                 </nav>
 
-                <section id="socialMediaTop">
+                <section id="socialMediaTop" class="hidden">
                     <h2 class="hidden">Social Media</h2>
                     <a href="https://www.instagram.com/"><img id="insta" src="images/Instagram.jpg" alt="Instagram logo" height="48" width="48"></a>
                     <a href="https://twitter.com/explore"><img id="twitter" src="images/TwitterLogo.jpg" alt="Twitter logo" height="48" width="48"></a>
@@ -40,9 +41,18 @@
             <section id="sixPack">
                 <h2 class="hidden">sixPackSection</h2>
 
-                <img id="sixImg" src="images/ProductsSix.jpg" alt="Crest Grolsch six pack" height="619" width="531">
+                <img id="sixImg" src="images/ProductsSix.jpg" alt="Crest Grolsch six pack" class="hidden">
+                <img id="sixImgM" src="images/ProductsSixM.jpg" alt="Crest Grolsch six pack mobile">
 
-                <p>Crest Grolsch advanced alcohol  free mouth wash is available in Grolsch themed six packs. A great deal for those who use the product daily, families who love the great taste and cleaning properties, and anyone who cares for the mouths health.</p>
+                <section class="sixInfo">
+                    <p class="sixP">Crest Grolsch advanced alcohol  free mouth wash is available in Grolsch themed six packs.</p>
+
+                    <div class="productButton1">
+                        <h2 class="hidden">button</h2>
+                        <a  class="ProductButton1">Read More</a>
+                        <p class="RMText1"></p>
+                    </div>
+                </section>
 
             </section>
 
@@ -51,11 +61,33 @@
             <section id="singlePack">
                 <h2 class="hidden">singlePackSection</h2>
 
-                <p>Crest Grolsch advanced alcohol  free mouth wash is available in Grolsch themed single bottles. The same Crest brand product for a healthy mouth with the great flavour of Grolsch beer. A perfect combination for those who like to pretend it's five O'clock somewhere, even at 6 AM.</p>
+                <section class="singleInfo">
 
-                <img id="singleImg" src="images/ProductsSingles.jpg" alt="Crest Grolsch bottles singles" height="664" width="433">
+                    <p class="sixP">Crest Grolsch advanced alcohol  free mouth wash is available in Grolsch themed single bottles.</p>
+
+                    <div class="productButton2">
+                        <h2 class="hidden">button</h2>
+                        <a class="ProductButton2">Read More</a>
+                        <p class="RMText2"></p>
+                    </div>
+                </section>
+
+                <img id="singleImg" src="images/ProductsSingles.jpg" alt="Crest Grolsch bottles singles" class="hidden">
+                <img id="singleImgM" src="images/ProductsSinglesM.jpg" alt="Crest Grolsch bottles singles mobile" >
+               
 
             </section>
+
+            <hr id="bar5">
+
+                <section id="twoFor1">
+                    <h2>Brand New 2 For 1 Deal!</h2>
+                    <div class="productButton3">
+                        <h2 class="hidden">button</h2>
+                        <a class="ProductButton3">Read More</a>
+                        <p class="RMText3"></p>
+                    </div>
+                </section>
 
 
             <footer>
@@ -66,30 +98,31 @@
                 <section id="footerTop">
                     <h2 class="hidden">FooterTop</h2>
 
-                    <p id="connect">Connect With Us</p>
+                    <p id="connect" class="hidden">Connect With Us</p>
 
+                    <div id="footMedia">
                     <a href="https://www.instagram.com/"><img id="instabot" src="images/Instagram.jpg" alt="Instagram logo"></a>
                     <a href="https://twitter.com/explore"><img id="twitterbot" src="images/TwitterLogo.jpg" alt="Twitter logo"></a>
                     <a href="https://www.facebook.com/"><img id="facebookbot" src="images/FacebookLogo.jpg" alt="facebook logo"></a>
+                </div>
 
-                    <a id="top" href="#">Top</a>
+                    <a id="top" class="hidden" href="#">Top</a>
 
                 </section>
 
-                <hr id="bar4">
-
-                <nav id="footerNav">
+                <nav id="footerNav" class="hidden">
                 <h2 class="hidden">Footer Nav</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="#"><span class="selected">Products</span></a></li>
-                    <li><a href="Advertisements.html">Advertisements</a></li>
+                    <li><a href="Advertisements">Advertisements</a></li>
                     <li><a id="contactBot" href="Contact.html">Contact Us</a></li>
                 </ul>
                 </nav>
 
-                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo">
+                <img id="crestLogoBot" src="images/FooterLogo.jpg" alt="Crest Grolsch product team up logo" class="hidden">
+                <img id="crestLogoBotM" src="images/FooterLogoM.jpg" alt="Crest Grolsch product team up logo">
 
             </footer>
 

@@ -372,6 +372,214 @@
 
 
 
+		/*products page*/
+
+	#sixPack
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: column;
+		margin-bottom:50px;
+	}
+
+	#sixImgM{
+		width:247px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+	.sixP
+	{
+		margin-top:50px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:20px;
+		line-height:25px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+	}
+
+	#singlePack
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: column;
+		margin-bottom:50px;
+	}
+
+	#singleImgM{
+		position: -1;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.singleP
+	{
+		margin-top:50px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:20px;
+		line-height:25px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+	}
+
+	#bar5
+	{
+		background-color: #136D37;
+	}
+
+	#singleInfo, #sixInfo{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.productButton1
+	{
+		margin-top:40px;
+		margin-left:33%;
+		margin-bottom:30px;
+	}
+
+	.ProductButton1{
+		color:#136D37;
+		text-decoration:none;
+		font-size:20px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton1:hover
+	{
+		font-size:25px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+		margin-left:-5%;
+		transition:.5s ease-in-out;
+	}
+
+	.productButton2
+	{
+		margin-top:40px;
+		margin-left:33%;
+		margin-bottom:80px;
+	}
+
+	.ProductButton2{
+		color:#136D37;
+		text-decoration:none;
+		font-size:20px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton2:hover
+	{
+		font-size:25px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+		margin-left:-5%;
+		transition:.5s ease-in-out;
+	}
+
+	.RMText1
+	{
+		margin-top:-40px;
+		margin-left:-120px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:20px;
+		line-height:25px;
+		text-align: center;
+	}
+
+	.RMText2
+	{
+		margin-top:-40px;
+		margin-left:-120px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:20px;
+		line-height:25px;
+		text-align: center;
+	}
+
+	#twoFor1
+	{
+		font-family: 'Bernard MT', Arial, sans-serif;
+		color:#29402C;
+		font-size:30px;
+		width:100%;
+		text-align: center;
+		line-height:40px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+		margin-top:30px;
+	}
+
+	.productButton3
+	{
+		margin-top:20px;
+	}
+
+	.ProductButton3
+	{
+		color:#136D37;
+		text-decoration:none;
+		font-size:20px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton3:hover
+	{
+		font-size:25px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+		transition:.5s ease-in-out;
+	}
+
+	.RMText3
+	{
+		color:#136D37;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+
+
+
+
 
 
 
@@ -872,5 +1080,194 @@
 		text-decoration:none;
 		padding:10px;
 		color:#29402C;
+	}
+
+	/*products page*/
+
+	#sixPack
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+		margin-bottom:50px;
+	}
+
+
+	.sixP
+	{
+		margin-top:150px;
+		margin-left:15px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#singlePack
+	{
+		margin-bottom:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	.singleP
+	{
+		margin-top:200px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#bar5
+	{
+		background-color: #136D37;
+	}
+
+	#singleInfo, #sixInfo{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.productButton1
+	{
+		margin-top:40px;
+		margin-left:30%;
+	}
+
+	.ProductButton1{
+		color:#136D37;
+		text-decoration:none;
+		font-size:22px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton1:hover
+	{
+		font-size:30px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:30px;
+		padding-right:30px;
+		padding-top:15px;
+		padding-bottom:15px;
+		margin-left:-5%;
+		transition:.5s ease-in-out;
+	}
+
+	.productButton2
+	{
+		margin-top:40px;
+		margin-left:30%;
+	}
+
+	.ProductButton2{
+		color:#136D37;
+		text-decoration:none;
+		font-size:22px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton2:hover
+	{
+		font-size:30px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:30px;
+		padding-right:30px;
+		padding-top:15px;
+		padding-bottom:15px;
+		margin-left:-5%;
+		transition:.5s ease-in-out;
+	}
+
+	.RMText1
+	{
+		margin-top:-40px;
+		margin-left:-100px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	.RMText2
+	{
+		margin-top:-40px;
+		margin-left:-130px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#twoFor1
+	{
+		font-family: 'Bernard MT', Arial, sans-serif;
+		color:#29402C;
+		font-size:40px;
+		width:80%;
+		text-align: center;
+		line-height:80px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:50px;
+		margin-top:50px;
+	}
+
+	.ProductButton3
+	{
+		color:#136D37;
+		text-decoration:none;
+		font-size:30px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	.ProductButton3:hover
+	{
+		font-size:40px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:25px;
+		padding-right:25px;
+		padding-top:15px;
+		padding-bottom:15px;
+		transition:.5s ease-in-out;
+	}
+
+	.RMText3
+	{
+		color:#136D37;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#sixImg{
+		display:unset;
+	}
+
+	#sixImgM{
+		display:none;
+	}
+
+	#singleImg{
+		display:unset;
+	}
+
+	#singleImgM{
+		display:none;
 	}
 }
