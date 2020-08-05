@@ -11,7 +11,7 @@
 
 
 	const productInfo =[
-	["A great deal for those who use the product daily, families who love the great taste and cleaning properties, and anyone who cares for the mouths health."],
+	["A great deal for those who use the product daily, families who love the great taste and cleaning properties, and anyone who cares for the mouth's health."],
 	["The same Crest brand product for a healthy mouth with the great flavour of Grolsch beer. A perfect combination for those who like to pretend it's five O'clock somewhere, even at 6 AM."],
 	["From now until September 1st, each single bottle of Grolsch Crest Pro Health Mouth Wash comes with a voucher for a free bottle with a later purchase!"]
 
